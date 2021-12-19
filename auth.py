@@ -1,1 +1,2 @@
-TOKEN = "Jw8cmDBUqHP0cJGZTIA4nwtJ3Ii31PHGSQWqV"
+#Enter Token Here
+TOKEN = ''
