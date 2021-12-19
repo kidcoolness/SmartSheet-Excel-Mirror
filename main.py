@@ -1,5 +1,5 @@
 import smartsheet
-from auth import TOKEN
+from auth import TOKEN,FILE_NAME,SMART_SHEET_NAME
 import os.path
 
 def main():
@@ -14,8 +14,8 @@ def main():
 
 
   #Get information
-  file_name = input("Enter File Name: ")
-  sheet_name = input("Enter Smartsheet Name: ")
+  file_name =   FILE_NAME
+  sheet_name = SMART_SHEET_NAME
 
 
   #Find the target sheet in all possible sheets
